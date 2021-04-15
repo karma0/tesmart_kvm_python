@@ -1,13 +1,15 @@
-# tesmart_kvm_python
-PoC Python script to interact with the TESmart 8-port KVM over IP.
+# TESmart KVM Controller
+Python script to interact with the TESmart 8-port KVM over IP.
 
-Based on the shell version [here](https://github.com/bbeaudoin/bash/tree/master/tesmart).
+Based on the shell version [here](https://github.com/bbeaudoin/bash/tree/master/tesmart).  More information on this rewrite in the `Credits` section below.
 
-## Installation
+## Requirements
 
 Requires Python 3 and that you have a TESmart switch that's connected to the network at its default address.  The simplest way to allow the connection to be established is to setup an IP address on your local interface that is on the same subnet as the TESmart device.  See the TESmart documentation for more information.
 
-These instructions assume that you have correct permissions to execute the Python script and that it exists in your path.
+## Installation
+
+These instructions assume that you have correct permissions to execute the Python script and that it exists in your path for your platform.  In Linux, `chmod 755 kvmctl.py` and moving it to `/usr/local/bin` should be sufficient to follow the instructions.  If you don't have either, a simple `python3 kvmctl.py` with this project as your working directory should work.
 
 ## Execution
 
