@@ -1,5 +1,6 @@
 # TESmart KVM Controller
-Python script to interact with the TESmart 8-port KVM over IP.
+
+Python script to control and set options on the TESmart 8-port KVM over IP.
 
 Based on the shell version [here](https://github.com/bbeaudoin/bash/tree/master/tesmart).  More information on this rewrite in the `Credits` section below.
 
